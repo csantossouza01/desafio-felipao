@@ -1,19 +1,20 @@
 let nomeHeroi = "Kajuina";
-let nivelHeroi = 6800;
+let xpHeroi = 8000;
+let nivelHeroi;
 
-if(nivelHeroi < 1000){
+if(xpHeroi < 1000){
     nivelHeroi = "Ferro"
-} else if (nivelHeroi >= 1001  && nivelHeroi <= 2000){
+} else if (xpHeroi >= 1001  && xpHeroi <= 2000){
     nivelHeroi = "Bronze"
-} else if (nivelHeroi >=2001 && nivelHeroi <= 5000){
+} else if (xpHeroi >=2001 && xpHeroi <= 5000){
     nivelHeroi = "Prata"
-}else if (nivelHeroi >= 5001 && nivelHeroi <= 7000){
+}else if (xpHeroi >= 5001 && xpHeroi <= 7000){
     nivelHeroi = "Ouro"
-}else if (nivelHeroi >=7001 && nivelHeroi <= 8000){
+}else if (xpHeroi >=7001 && xpHeroi <= 8000){
     nivelHeroi = "Platina"
-}else if (nivelHeroi >=8001 && nivelHeroi <= 9000){
+}else if (xpHeroi >=8001 && xpHeroi <= 9000){
     nivelHeroi = "Ascendente"
-}else if (nivelHeroi >=9001 && nivelHeroi <= 10000){
+}else if (xpHeroi >=9001 && xpHeroi <= 10000){
     nivelHeroi = "Imortal"
 } else {
     nivelHeroi = "Radiante"
